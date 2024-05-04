@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-color-primary-dark text-color-white tracking-wider">
+    <header>
+        <nav class="container flex justify-between items-center">
+            <div class="w-20 py-5 text-color-secondary font-bold text-3xl">
+                <a href="#"><span class="text-color-white">Light</span>code.</a>
+            </div>
+            <div>
+                <ul class="hidden lg:flex items-center space-x-6">
+                    <li><a href="#home" class="hover:text-color-secondary ease-in duration-200">Home</a></li>
+                    <li><a href="#features" class="hover:text-color-secondary ease-in duration-200">Features</a></li>
+                    <li><a href="#testimoial" class="hover:text-color-secondary ease-in duration-200">Testimoial</a></li>
+                    <li><a href="#pricing" class="hover:text-color-secondary ease-in duration-200">Pricing</a></li>
+                    <li><a href="#blog" class="hover:text-color-secondary ease-in duration-200">Blog</a></li>
+                    <li><a href="#contact" class="hover:text-color-secondary ease-in duration-200">Contact</a></li>
+
+                    <li><button class="bg-color-secondary px-5 py-3 rounded-md capitalize font-bold hover:opacity-80 ease-in">Free trial</button></li>
+                </ul>
+            </div>
+
+            <!-- mobil setecion -->
+
+            <div id="hamburger" class="lg:hidden cursor-pointer">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div id="menu" class="hidden bg-color-primary-dark h-[100vh] absolute inset-0">
+                <ul class="h-full grid place-items-center py-20">
+                    <li><a href="#home" class="hover:text-color-secondary ease-in duration-200">Home</a></li>
+                    <li><a href="#features" class="hover:text-color-secondary ease-in duration-200">Features</a></li>
+                    <li><a href="#testimoial" class="hover:text-color-secondary ease-in duration-200">Testimoial</a></li>
+                    <li><a href="#pricing" class="hover:text-color-secondary ease-in duration-200">Pricing</a></li>
+                    <li><a href="#blog" class="hover:text-color-secondary ease-in duration-200">Blog</a></li>
+                    <li><a href="#contact" class="hover:text-color-secondary ease-in duration-200">Contact</a></li>
+
+                    <li><button class="btn">Free trial</button></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section  id="home" class="relative">
+            <div class="w-80 h-80 bg-color-blob absolute top-0 -left-5 -z-10 blur-2xl opacity-30 overflow-hidden rounded-full"></div>
+            <div class="w-80 h-80 bg-color-secondary absolute bottom-10 right-0 -z-10 blur-2xl opacity-30 overflow-hidden rounded-full"></div>
+            <div class="container py-20">
+                <div class="flex flex-col items-center z-20 md:flex-row">
+                    <div class="text-center mb-12 md:text-left md:w-1/2 md:pr-10">
+                        <h1 class="title mb-4">Awesome App For Your<br>Financial.</h1>
+                        <p class="leading-relaxed mb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo itaque in accusamus eveniet, commodi aspernatur nemo. Facilis perferendis, consectetur,</p>
+                        <button class="btn">Download App</button>
+                    </div>
+                    <div class="md:w-1/2">
+                        <img src="img/hero4.png" alt="image">    
+                    </div>
+                </div>
+            </div>            
+        </section>
+
+        <section id="features" class="bg-color-primary-light">
+           <div class="container py-20 ">
+              <div class="text-center m-auto mb-20 md:w-1/2">
+                <h4 class="text-color-secondary font-bold mb-4">Our Feature</h4>
+                <h1 class="title">Easy To Manage Your All Payment Buy Or App</h1>
+              </div>
+
+              <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-12 lg:gap-8 px-4 sm:px-6 lg:px-8">
+                <!-- carde no 1 -->
+                <div class="border-2 border-solid border-color-gray px-5 py-20 rounded-2xl text-center cursor-pointer hover:bg-color-primary-dark ease-in duration-200">
+                    <div class="bg-color-secondary inline-block rounded-2xl py-5 px-6">
+                        <i class="fa-solid fa-calendar-days text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold py-4">Expense Trackering</h3>
+                    <p class="leading-relaxed">WE use an application designed a testing gnose to kepp away</p>
+                </div>
+                <!-- carde no 2 -->
+                <div class="border-2 border-solid border-color-gray px-5 py-20 rounded-2xl text-center cursor-pointer hover:bg-color-primary-dark ease-in duration-200">
+                    <div class="bg-color-secondary inline-block rounded-2xl py-5 px-6">
+                        <i class="fa-solid fa-chart-column text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold py-4">Finance Snapshot</h3>
+                    <p class="leading-relaxed">WE use an application designed a testing gnose to kepp away</p>
+                </div>
+                <!-- carde no 3 -->
+                <div class="border-2 border-solid border-color-gray text-center px-5 py-20 rounded-2xl cursor-pointer hover:bg-color-primary-dark duration-200">
+                    <div class="bg-color-secondary inline-block rounded-2xl py-5 px-6">
+                        <i class="fa-solid fa-phone text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold py-4">Support 24/24</h3>
+                    <p class="leading-relaxed">WE use an application designed a testing gnose to kepp away</p>
+                </div>
+              </div>
+           </div>
+        </section>
+        
+        <section  id="testimoial">
+            
+            <div class="container py-20 relative">
+                <div class="w-80 h-80 bg-color-blob absolute top-0 -left-5 -z-10 blur-2xl opacity-30 overflow-hidden rounded-full"></div>
+                <div class="w-80 h-80 bg-color-secondary absolute bottom-10 right-0 -z-10 blur-2xl opacity-30 overflow-hidden rounded-full"></div>
+
+                <div class="flex flex-col items-center justify-between md:flex-row">
+                    <div class="mb-12 md:w-1/2">
+                        <img src="img/hero3.png" alt="image">    
+                    </div>
+                    <div class="text-center mb-12 md:text-left md:w-1/2 md:pr-10">
+                        <h4 class="text-color-secondary font-bold mb-4">Saving Money</h4>
+                        <h1 class="title mb-4">Best Financing App To Save Your Money.</h1>
+                        <p class="leading-relaxed mb-10">Best financing app ever in the world. Easy to use and very user friendly for mobile banking. You can control your card easily and send money some one just one click.</p>
+                        <button class="btn">Read more</button>
+                    </div>
+                    
+                </div>
+            </div>            
+        </section>
+    </main>
+    
+</body>
+</html>
