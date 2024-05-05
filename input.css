@@ -10,3 +10,13 @@
 .title {
     @apply font-bold text-3xl md:text-4xl leading-snug;
 }
+
+.new-1 {
+    @apply text-6xl lg:after:content-[''] lg:after:flex lg:after:bg-[url("img/line.png")] lg:after:absolute
+     lg:after:top-4 lg:after:left-32 2xl:after:left-52 lg:after:bg-no-repeat lg:after:h-7 lg:after:w-52;
+}
+
+.new-2 {
+    @apply text-6xl lg:after:content-[''] lg:after:flex lg:after:bg-[url("img/line-bottom.png")] lg:after:absolute
+     lg:after:top-4 lg:after:left-32 2xl:after:left-52 lg:after:bg-no-repeat lg:after:h-7 lg:after:w-52;
+}
